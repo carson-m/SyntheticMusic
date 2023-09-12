@@ -1,8 +1,8 @@
 function [t,omg,FT,IFT] = prefourier(Trg,N,OMGrg,K)
 % 输入参数： 
-% Trg  : 二维矢量，两个元素分别表示时域信号的起止时间；
+% Trg  : 二维矢量，两个元素分别表示时域信号的起止时间；T-range
 % N    : 时域抽样数量；
-% OMGrg: 二维矢量，两个元素分别表示频谱的起止频率；
+% OMGrg: 二维矢量，两个元素分别表示频谱的起止频率；Omega-range
 % K    : 频域抽样数量。
 % 输出参数：
 % t    : 抽样时间；
